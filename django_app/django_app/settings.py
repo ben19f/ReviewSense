@@ -37,13 +37,18 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin',  # Админка Django
+    'django.contrib.auth',  # Система аутентификации
+    'django.contrib.contenttypes',  # Работа с типами моделей
+    'django.contrib.sessions',  # Работа с сессиями
+    'django.contrib.messages',  # Система сообщений
+    'django.contrib.staticfiles',  # Статика (CSS, JS, изображения)
+
+
+    'rest_framework',  # Django REST Framework
+    'feedback',  # Приложение для отзывов
 ]
 
 MIDDLEWARE = [
