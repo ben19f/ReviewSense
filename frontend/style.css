@@ -36,3 +36,9 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
+.feedback-list {
+    background: lightgreen;
+    padding: 20px;
+    border-radius: 8px;
+}
